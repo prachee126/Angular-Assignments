@@ -13,7 +13,7 @@ bool CheckPerfect(int iNo)
     {
         iNo=-iNo;
     }
-    for(iCnt=1;iCnt<=(iNo/2) &&(iSum<=iNo);iCnt++)      //Optimization
+    for(iCnt=iNo/2;iCnt>=1 &&(iSum<=iNo);iCnt++)      //Optimization
     {
         if((iNo%iCnt)==0)
         {
