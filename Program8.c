@@ -19,7 +19,7 @@ bool CheckPerfect(int iNo)
             iSum=iSum+iCnt;
         }
     
-        if(iSum>iNo)
+        if(iSum>iNo)        //optimization
         {
             break;
         }
